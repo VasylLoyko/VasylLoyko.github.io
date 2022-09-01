@@ -1,0 +1,228 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+
+:root{
+
+    --colorRojo: rgb(139, 0, 0);
+    --colorAzul: rgb(0, 0, 153);
+    --colorGris: rgb(207, 207, 207);
+}
+
+.cuerpo{
+
+    background-color: var(--colorRojo);
+    transition: 1s;
+}
+
+.cuerpo2{
+
+    background-color: var(--colorAzul);
+    transition: 1s;
+}
+
+.contenedorIdioma{
+
+    width: 100px;
+    padding: 0;
+    margin-left: 70%;
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 5%;
+    background-color: var(--colorGris);
+    outline: 2px solid black;
+    box-shadow: 0px 0px 12px black;
+}
+
+.circulo{
+
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-color: var(--colorRojo);
+    border-radius: 50%;
+    outline: 2px solid white;
+    box-shadow: 0px 0px 10px black;
+    left: 0%;
+    transition: .5s;
+}
+.circulo2{
+
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-color: var(--colorAzul);
+    border-radius: 50%;
+    outline: 2px solid white;
+    box-shadow: 0px 0px 10px black;
+    left: 59%;
+    transition: .5s;
+}
+
+.contenedorIma{
+
+    position: relative;
+}
+
+.spain{
+
+    position: absolute;
+    width: 35px;
+    left: 52%;
+    top: 20%;
+    transition: 1s;
+
+    display: inline-block;
+    opacity: 1;
+
+    box-shadow: 0px 0px 10px black;
+
+}
+
+.spain2{
+
+    position: absolute;
+    width: 35px;
+    left: 52%;
+    top: 20%;
+    transition: 1s;
+
+    display: inline-block;
+    opacity: 0;
+
+    box-shadow: 0px 0px 10px black;
+}
+
+.english{
+
+    position: absolute;
+    width: 35px;
+    left: 20%;
+    top: 22%;
+    transition: 1s;
+
+    display: inline-block;
+    opacity: 0;
+
+    box-shadow: 0px 0px 10px black;
+
+}
+
+.english2{
+
+    position: absolute;
+    width: 35px;
+    left: 20%;
+    top: 22%;
+    transition: 1s;
+
+    display: inline-block;
+    opacity: 1;
+
+    box-shadow: 0px 0px 10px black;
+}
+
+
+
+.contenedor{
+
+    width: 90%;
+    margin-top: .1%;
+    margin-bottom: 2%;
+    box-shadow: 0px 5px 10px black;
+    outline: 1px solid black;
+    font-family: 'Kanit', sans-serif;
+}
+
+.primeraColumna{
+
+    background-color: black;
+    color: white;
+}
+
+.segundaColumna{
+
+    background-color: var(--colorGris);
+    color: black;
+    padding: 10% 8% 0% 8%; 
+    font-size: 150%;
+}
+
+.progress-bar{
+
+    background-color: yellow;
+    
+}
+.progress{
+
+    background-color: var(--colorGris);
+    padding-left: 0;
+    margin-left: 0;
+    height: 5px;
+    width: 75%;
+}
+
+
+.nombre{
+
+    text-align: center;
+    padding: 4% 10% 0% 10%;
+}
+
+h1{
+
+    font-size: 450%;
+}
+
+h2{
+
+    font-size: 140%;
+}
+h3{
+
+    font-size: 250%;
+}
+
+.cuatro0{
+
+    font-size: 200%;
+    border-top: 1px solid white;
+    color: var(--colorRojo);
+    transition: 1s;
+}
+
+.cuatro{
+
+    font-size: 200%;
+    border-top: 1px solid white;
+    color: var(--colorAzul);
+    transition: 1s;
+}
+
+.contenidoPrimeraFila{
+
+    padding-left: 20%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+
+    font-size: 120%;
+}
+
+.separadorSegundaCol{
+
+    border-bottom: 1px solid black;
+    padding-bottom: 12%;
+    padding-top:3%;
+}
+
+
+.separadorMitad{
+
+
+    padding-bottom: 7%;
+}
+
+.ultimaSinBorde{
+
+    padding-top: 10%;
+    border: none;
+}
