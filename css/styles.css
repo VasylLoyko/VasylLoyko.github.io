@@ -11,13 +11,15 @@
 
 .cuerpo{
 
-    background-color: var(--colorRojo);
+    background: rgb(164,0,0);
+    background: linear-gradient(0deg, rgba(164,0,0,1) 49%, rgba(70,0,0,1) 100%);
     transition: 1s;
 }
 
 .cuerpo2{
 
-    background-color: var(--colorAzul);
+    background: rgb(0,0,164);
+    background: linear-gradient(0deg, rgba(0,0,164,1) 49%, rgba(0,0,70,1) 100%);
     transition: 1s;
 }
 
